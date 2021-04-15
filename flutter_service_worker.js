@@ -3,15 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "045dac2e38ee142c5e528f08c935a083",
+  "assets/AssetManifest.json": "f0604bb5cf66d35fe3f6429b9b600475",
 "assets/assets/images/altv.png": "733c831700db18f31b52b19d58357d4b",
 "assets/assets/images/altvlog.png": "c170eae921e1308be25ab73308b45d43",
 "assets/assets/images/background-image.png": "0163fa7852ed92ba483eca583d0fcbee",
 "assets/assets/images/bg.png": "1273f30e5014245d74f1e2435f2a2265",
 "assets/assets/images/bgone.gif": "5185324d8c7eebfa8422fbc8eaba4ed1",
-"assets/assets/images/bgone.jpg": "7dcc76e5fd44672a32fd39c7d4cb1d77",
-"assets/assets/images/bgsecond.jpg": "06efbe90e676220c46e592435d5b8887",
-"assets/assets/images/bgthirth.jpg": "4e99ae3dbafb195fcf5518692cea167c",
+"assets/assets/images/bgsecond.gif": "7d9332516551d2080bc978b5b5c57c9b",
+"assets/assets/images/bgthirth.gif": "2fe9a08e104908c8f1ad99aae1b142c7",
 "assets/assets/images/footer.png": "bb7478939195634ba587cebf41c7eb87",
 "assets/assets/images/footer2.png": "9169537235147ae0bbd1afb4577dc69c",
 "assets/assets/images/homepage.png": "40e47a082579e6ea2625cf0cdc4c0b30",
@@ -44,9 +43,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "3c804815af840c957e5877870a411729",
-"/": "3c804815af840c957e5877870a411729",
-"main.dart.js": "ffe4d261c54c3bef1310723ab68b665d",
+"index.html": "0f9f702e295f15a6559b6431651b1521",
+"/": "0f9f702e295f15a6559b6431651b1521",
+"main.dart.js": "4916f363ddd6e4220ed0c16c12dae4da",
 "manifest.json": "5527dc16d734a2c2434414ca97d5575e",
 "version.json": "dc68300a8dcba0ff927ee3fc90a69f24"
 };
