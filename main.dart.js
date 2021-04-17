@@ -16709,9 +16709,11 @@ _.b=b
 _.c=c
 _.d=d
 _.e=e},
-Ce:function Ce(a,b,c){this.f=a
-this.z=b
-this.fr=c},
+Ce:function Ce(a,b,c,d){var _=this
+_.a=a
+_.f=b
+_.z=c
+_.fr=d},
 a1E:function(a){var s=0,r=P.a3(t.H),q
 var $async$a1E=P.Z(function(b,c){if(b===1)return P.a0(c,r)
 while(true)$async$outer:switch(s){case 0:a.gad().qL(C.yI)
@@ -51429,7 +51431,7 @@ M:function(a,b){return new S.qk(new F.qx(null),"Roleplay X",X.a6m(C.k,null,C.q9,
 F.qx.prototype={
 ay:function(){return new F.EH(C.l)}}
 F.EH.prototype={
-b0:function(){this.e=Y.aez("X_XyUz3WJmU",new M.Ce(!0,!0,P.bR(0,0,0)))
+b0:function(){this.e=Y.aez("X_XyUz3WJmU",new M.Ce(!1,!0,!1,P.bR(0,0,0)))
 P.a6n(P.bR(0,0,8),new F.Yo(this))
 this.bl()},
 M:function(b7,b8){var s,r,q,p,o,n,m,l,k,j,i,h=null,g="assets/images/logo.png",f="assets/images/altv.png",e="assets/images/character.png",d="assets/images/homepage.png",c="assets/images/bgone.gif",b="assets/images/v.png",a="assets/images/steam.png",a0="assets/images/bgsecond.gif",a1="assets/images/altvlog.png",a2="assets/images/bgthirth.gif",a3="assets/images/footer.png",a4=t.w,a5=b8.N(a4).f,a6=U.BD(L.bB("anasayfa",B.c7(C.i,h,C.C,C.t,2),h,1),new F.Yd(),h),a7=T.dq(h,h,15),a8=U.BD(L.bB("forum",B.c7(C.i,h,C.C,C.t,2),h,1),new F.Ye(),h),a9=T.dq(h,h,15),b0=U.BD(L.bB("kurallar",B.c7(C.i,h,C.C,C.t,2),h,1),new F.Yf(),h),b1=T.dq(h,h,15),b2=U.BD(L.bB("social",B.c7(C.i,h,C.C,C.t,2),h,1),new F.Yg(),h),b3=T.dq(h,h,15),b4=U.BD(L.bB("panel",B.c7(C.i,h,C.C,C.t,2),h,1),new F.Yh(),A.oT(h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h)),b5=b8.N(a4).f.a.a/12,b6=t.fQ
@@ -51446,7 +51448,7 @@ b0=B.em(C.bt,b8.N(a4).f.a.b/1.7,e,e,b0.a.a/2.1)
 b1=b8.N(a4).f
 a9=T.hX(H.c([a8,M.cl(h,new U.ou(B.em(C.bt,b8.N(a4).f.a.b/1.5,d,d,b1.a.a/2.1),b0,a7,a9,C.cy,h),h,h,new S.dN(C.k,new X.xe(new L.lw("assets/images/background-image.png",h),C.bt),h,h,h,h,C.ab),h,h,h,h)],b6),C.P,C.fX,C.J)
 a7=b8.N(a4).f.a.a/8
-a7=M.cl(h,new R.Cd(this.e,1.7777777777777777,h),h,h,h,h,new V.aL(0,50,0,50),new V.aL(a7,0,a7,0),h)
+a7=M.cl(h,new R.Cd(this.e,2.5,h),h,h,h,h,new V.aL(0,50,0,50),new V.aL(a7,0,a7,0),h)
 b0=t.iD
 b1=T.Rc(h,h,C.cw,!0,h,new Q.e1(h,H.c([new Q.e1("X Roleplay ",h,B.c7(P.az(255,235,0,51),h,h,h,h)),new Q.e1("de nas\u0131l oynayabilirsin?",h,B.c7(C.i,h,h,h,h))],b0),h),C.bY,h,h,3,C.aS)
 a8=T.dq(h,10,h)
@@ -51500,19 +51502,19 @@ $0:function(){var s=this.a
 s.d=!s.d},
 $S:1}
 F.Yd.prototype={
-$0:function(){P.eB("sa")},
+$0:function(){P.eB("test")},
 $S:1}
 F.Ye.prototype={
 $0:function(){},
 $S:1}
 F.Yf.prototype={
-$0:function(){P.eB("sa")},
+$0:function(){P.eB("test")},
 $S:1}
 F.Yg.prototype={
 $0:function(){},
 $S:1}
 F.Yh.prototype={
-$0:function(){P.eB("sa")},
+$0:function(){P.eB("test")},
 $S:1}
 F.Yi.prototype={
 $0:function(){},
@@ -51521,13 +51523,13 @@ F.Yj.prototype={
 $0:function(){},
 $S:1}
 F.Yk.prototype={
-$0:function(){return P.eB("sa")},
+$0:function(){return P.eB("test")},
 $S:0}
 F.Yl.prototype={
-$0:function(){return P.eB("sa")},
+$0:function(){return P.eB("test")},
 $S:0}
 F.Ym.prototype={
-$0:function(){return P.eB("sa")},
+$0:function(){return P.eB("test")},
 $S:0}
 E.J0.prototype={
 oL:function(a,b,c){return this.Qm(a,b,c)},
@@ -52041,7 +52043,7 @@ gaD:function(a){var s=this.d
 return s===$?H.h(H.t("controller")):s},
 gAd:function(){var s=this.e
 return s===$?H.h(H.t("_iFrame")):s},
-b0:function(){var s,r,q,p,o=this,n="1"
+b0:function(){var s,r,q,p,o=this,n="1",m="0"
 o.bl()
 o.d=o.a.c
 o.e=new P.au(new P.R($.O,t.b0),t.yG)
@@ -52049,25 +52051,24 @@ s=document.createElement("iframe")
 r=o.gaD(o)
 q=t.N
 q=P.v(q,q)
-r.toString
-q.m(0,"autoplay",n)
-q.m(0,"mute","0")
+p=r.b
+q.m(0,"autoplay",p.a?n:m)
+q.m(0,"mute",m)
 q.m(0,"controls",n)
 q.m(0,"playsinline",n)
 q.m(0,"enablejsapi",n)
-p=r.b
-q.m(0,"fs",p.z?n:"0")
+q.m(0,"fs",m)
 q.m(0,"rel",n)
-q.m(0,"showinfo","0")
+q.m(0,"showinfo",m)
 q.m(0,"iv_load_policy",n)
 q.m(0,"modestbranding",n)
 q.m(0,"cc_load_policy",n)
 q.m(0,"cc_lang_pref","en")
 q.m(0,"start",""+C.h.bu(p.fr.a,1e6))
-q.m(0,"disablekb","0")
+q.m(0,"disablekb",m)
 q.m(0,"color","white")
 q.m(0,"hl","en")
-q.m(0,"loop","0")
+q.m(0,"loop",m)
 s.srcdoc="    <!DOCTYPE html>\n    <body>\n        "+('<iframe id="player" type="text/html" style="position:absolute; top:0px; left:0px; bottom:0px; right:10px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;" src="'+P.afr("https","www.youtube.com","embed/"+r.a,q).i(0)+'" frameborder="0" allowfullscreen></iframe>')+"\n        <script>\n            var tag = document.createElement('script');\ntag.src = \"https://www.youtube.com/iframe_api\";\nvar firstScriptTag = document.getElementsByTagName('script')[0];\nfirstScriptTag.parentNode.insertBefore(tag, firstScriptTag);\n\n            var player;\n            var timerId;\n            function onYouTubeIframeAPIReady() {\n                player = new YT.Player('player', {\n                    events: {\n                      onReady: (event) => sendMessage({ 'Ready': true }),\n                      onStateChange: (event) => sendPlayerStateChange(event.data),\n                      onPlaybackQualityChange: (event) => sendMessage({ 'PlaybackQualityChange': event.data }),\n                      onPlaybackRateChange: (event) => sendMessage({ 'PlaybackRateChange': event.data }),\n                      onError: (error) => sendMessage({ 'Errors': event.data }),\n                    },\n                });\n            }\n            \n            window.addEventListener('message', (event) => {\n               try { eval(event.data) } catch (e) {}\n            }, false);\n            \n            function sendMessage(message) {\n              window.parent.postMessage(JSON.stringify(message), '*');\n            }\n\n            function sendPlayerStateChange(playerState) {\n                clearTimeout(timerId);\n                sendMessage({ 'StateChange': playerState });\n                if (playerState == 1) {\n                    startSendCurrentTimeInterval();\n                    sendVideoData(player);\n                }\n            }\n\n            function sendVideoData(player) {\n                var videoData = {\n                    'duration': player.getDuration(),\n                    'title': player.getVideoData().title,\n                    'author': player.getVideoData().author,\n                    'videoId': player.getVideoData().video_id\n                };\n                sendMessage({ 'VideoData': videoData });\n            }\n\n            function startSendCurrentTimeInterval() {\n                timerId = setInterval(function () {\n                  var videoTime = {\n                      'currentTime': player.getCurrentTime(),\n                      'videoLoadedFraction': player.getVideoLoadedFraction()\n                  };\n                  sendMessage({ 'VideoTime': videoTime });\n                }, 100);\n            }\n            \n            function play() {\n  player.playVideo();\n  return '';\n}\nfunction pause() {\n  player.pauseVideo();\n  return '';\n}\nfunction loadById(loadSettings) {\n  player.loadVideoById(loadSettings);\n  return '';\n}\nfunction cueById(cueSettings) {\n  player.cueVideoById(cueSettings);\n  return '';\n}\nfunction loadPlaylist(loadSettings) {\n  player.loadPlaylist(loadSettings);\n  return '';\n}\nfunction cuePlaylist(loadSettings) {\n  player.cuePlaylist(loadSettings);\n  return '';\n}\nfunction mute() {\n  player.mute();\n  return '';\n}\nfunction unMute() {\n  player.unMute();\n  return '';\n}\nfunction setVolume(volume) {\n  player.setVolume(volume);\n  return '';\n}\nfunction seekTo(position, seekAhead) {\n  player.seekTo(position, seekAhead);\n  return '';\n}\nfunction setSize(width, height) {\n  player.setSize(width, height);\n  return '';\n}\nfunction setPlaybackRate(rate) {\n  player.setPlaybackRate(rate);\n  return '';\n}\nfunction setLoop(loopPlaylists) {\n  player.setLoop(loopPlaylists);\n  return '';\n}\nfunction setShuffle(shufflePlaylist) {\n  player.setShuffle(shufflePlaylist);\n  return '';\n}\nfunction previous() {\n  player.previousVideo();\n  return '';\n}\nfunction next() {\n  player.nextVideo();\n  return '';\n}\nfunction playVideoAt(index) {\n  player.playVideoAt(index);\n  return '';\n}\nfunction stop() {\n  player.stopVideo();\n  return '';\n}\nfunction isMuted() {\n  return player.isMuted();\n}\nfunction hideTopMenu() {\n  try { document.querySelector('#player').contentDocument.querySelector('.ytp-chrome-top').style.display = 'none'; } catch(e) { }\n  return '';\n}\nfunction hidePauseOverlay() {\n  try { document.querySelector('#player').contentDocument.querySelector('.ytp-pause-overlay').style.display = 'none'; } catch(e) { }\n  return '';\n}\n\n        </script>\n    </body>\n  "
 r=s.style
 r.border="none"
@@ -55412,7 +55413,7 @@ C.CG=new O.h1("YoutubeError.cannotFindVideo")
 C.CH=new O.h1("YoutubeError.sameAsNotEmbeddable")
 C.CI=new O.h1("YoutubeError.unknown")
 C.CJ=new S.Cb("","","",C.B)
-C.DM=new M.Ce(!0,!1,C.B)
+C.DM=new M.Ce(!0,!0,!1,C.B)
 C.aT=new G.Cu("_AnimationDirection.forward")
 C.o3=new G.Cu("_AnimationDirection.reverse")
 C.o4=new H.tD("_CheckableKind.checkbox")
